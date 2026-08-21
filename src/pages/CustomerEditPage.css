@@ -1,0 +1,144 @@
+/* ------------------------------
+   顧客編集画面全体
+------------------------------ */
+.customer-edit-page {
+  min-height: 100vh;
+  background-color: #f5f8fc;
+  padding: 32px 16px;
+  box-sizing: border-box;
+}
+
+/* ------------------------------
+   顧客編集カード
+------------------------------ */
+.customer-edit-container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* ------------------------------
+   顧客編集タイトル
+------------------------------ */
+.customer-edit-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #2563eb;
+}
+
+/* ------------------------------
+   入力項目
+------------------------------ */
+.customer-edit-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+/* ------------------------------
+   入力項目のラベル
+------------------------------ */
+.customer-edit-group label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.customer-edit-label-text {
+  display: inline-block;
+  min-width: 110px;
+}
+
+/* ------------------------------
+   入力欄・備考欄
+------------------------------ */
+.customer-edit-group input,
+.customer-edit-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* ------------------------------
+   顧客編集の操作エリア
+------------------------------ */
+.customer-edit-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+/* ------------------------------
+   保存ボタン
+------------------------------ */
+.customer-edit-button {
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ------------------------------
+   詳細へ戻る
+------------------------------ */
+.customer-edit-back-link {
+  padding: 10px 16px;
+  color: #333333;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* 保存ボタンにマウスを乗せたとき */
+.customer-edit-button:hover {
+  background-color: #1d4ed8;
+}
+
+/* 詳細へ戻るにマウスを乗せたとき */
+.customer-edit-back-link:hover {
+  background-color: #f5f8fc;
+}
+
+/* ------------------------------
+   削除ボタン
+------------------------------ */
+.customer-edit-delete-button {
+  display: block;
+  margin-top: 24px;
+  margin-left: auto;
+  padding: 8px 16px;
+  color: #ef4444;
+  background-color: #ffffff;
+  border: 1px solid #ef4444;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 削除するにマウスを乗せたとき */
+.customer-edit-delete-button:hover {
+  background-color: #fef2f2;
+}
+
+/* ------------------------------
+   更新エラーメッセージ
+------------------------------ */
+.customer-edit-error {
+  margin: 0 0 16px;
+  padding: 12px 16px;
+  color: #b91c1c;
+  background-color: #fef2f2;
+  border-radius: 6px;
+}
