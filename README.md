@@ -23,6 +23,20 @@ Atenaは、店舗向けの宛名・顧客管理Webアプリケーションです
 - 顧客編集
 - 顧客削除
 
+## 画面イメージ
+
+### ログイン画面
+
+![ログイン画面](docs/login-screen.png)
+
+### 顧客一覧画面
+
+![顧客一覧画面](docs/customer-list-screen.png)
+
+### 顧客詳細画面
+
+![顧客詳細画面](docs/customer-detail-screen.png)
+
 ## 使用技術
 
 - フロントエンド：React
