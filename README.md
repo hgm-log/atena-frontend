@@ -30,6 +30,10 @@ Atenaは、店舗向けの宛名・顧客管理Webアプリケーションです
 - データベース：MySQL
 - 開発環境：Docker
 
+## ER図
+
+![ER図](docs/er-diagram.png)
+
 ## 起動方法
 
 ### 1. 事前準備
